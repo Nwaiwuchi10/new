@@ -3,7 +3,6 @@ import express from "express";
 import dotenv from "dotenv";
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
 import colors from "colors";
-const path = require("path");
 import connectDB from "./config/db.js";
 import morgan from "morgan";
 // import products from "./data/products.js";
