@@ -93,6 +93,20 @@ const products = [
   {
     // _id: "8",
     name: "Amazon Echo Dot 3rd Generation",
+    image:
+      "https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/J/O/153608_1562772165.jpg",
+    description:
+      "Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space",
+    brand: "Amazon",
+    category: "Electronics",
+    price: 29.99,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 12,
+  },
+  {
+    // _id: "9",
+    name: "Amazon Echo Dot 3rd Generation",
     image: "/images/dj9.jpeg",
     description:
       "Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space",
