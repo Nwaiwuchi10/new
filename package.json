@@ -6,9 +6,13 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node probackend /server",
+    "server": "nodemon probackend/server",
+    "client": "npm start --prefix proshop-front-end",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node probackend/seeder",
+    "data:destroy": "node probackend/seeder -d"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
